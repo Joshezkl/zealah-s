@@ -19,7 +19,7 @@ export default function IntroScreen({ started, onStart }: IntroScreenProps) {
       >
         <Sparkles className="intro-sparkles" strokeWidth={1.3} aria-hidden="true" />
         <p className="intro-eyebrow">A little magic awaits</p>
-        <h1>Hiii, everyone!</h1>
+        <h1>Hello, everyone!</h1>
         <p className="intro-message">Welcome to my little magical world! I'm so happy you're here. I have a very special invitation for you, so come and celebrate with me!</p>
         {!started && (
           <button className="start-invitation" onClick={onStart}>
