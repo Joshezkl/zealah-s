@@ -5,7 +5,7 @@ import { OceanEffects } from '../components/OceanEffects'
 const details = [
   { icon: <CalendarDays />, label: 'Date', value: 'December 02, 2026' },
   { icon: <Clock3 />, label: 'Time', value: '3:00 PM' },
-  { icon: <MapPin />, label: 'Venue', value: "Cai's Garden Resort" },
+  { icon: <MapPin />, label: 'Venue', value: "Cai's Garden & Events Bypass Road, Urdaneta City Pangasinan" },
 ]
 
 export default function Screen3() {

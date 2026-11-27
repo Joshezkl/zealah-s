@@ -19,7 +19,7 @@ export default function Screen1() {
         <h1>Zaelah Hesztia</h1>
         <h2>Tembreza Delos Santos</h2>
         <div className="invitation-divider"><span />♢<span /></div>
-        <p className="celebration-title">Baptism &amp; 1st Birthday</p>
+        <p className="celebration-title">Christening &amp; 1st Birthday</p>
       </motion.div>
     </div>
   )
