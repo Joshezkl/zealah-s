@@ -26,7 +26,7 @@ if (!apiKey) {
           model: 'gpt-4o-mini-tts',
           voice: 'shimmer',
           input: step.narration,
-          instructions: 'Use a consistent, clearly synthetic childlike feminine voice with a youthful higher register. Sound soft, sweet, innocent, cheerful, and gently playful, like a young girl warmly inviting her guests. Keep the delivery natural, clear, and easy to understand, with light youthful intonation rather than exaggerated pitch or baby talk. Avoid an adult announcer style. Speak only the supplied words.',
+          instructions: 'Use a consistent, clearly synthetic childlike feminine voice with a youthful higher register. Sound genuinely happy, excited, cheerful, and bubbly, like a little girl thrilled to invite her family and friends to her birthday and baptism. Smile while speaking; use lively energy, playful expression, bright rises and falls in pitch, and eager, joyful emphasis. Add a hint of giggly excitement through the tone, but do not add laughter, sounds, or words that are not in the script. Keep every word clear and natural, with an upbeat, animated pace. Never sound serious, sad, monotone, sleepy, or like a formal adult announcer. Speak only the supplied words.',
           response_format: 'mp3',
         }),
       })

@@ -212,8 +212,8 @@ export default function App() {
       ) ?? availableVoices.find((candidate) => /^en[-_]/i.test(candidate.lang))
       utterance = new SpeechSynthesisUtterance(step.narration)
       utterance.lang = 'en-US'
-      utterance.rate = 0.93
-      utterance.pitch = 1.35
+      utterance.rate = 1.02
+      utterance.pitch = 1.45
       utterance.volume = voiceMutedRef.current ? 0 : 1
       if (selectedVoice) utterance.voice = selectedVoice
       utteranceRef.current = utterance
